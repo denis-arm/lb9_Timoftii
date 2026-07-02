@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - AWESOME</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/popup.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav id="myTopnav"> 
+            <div class="logo">
+                <img src="img/logo1.png" alt="Логотип">
+            </div>
+            <div id="hamburger" class="icon">&#9776;</div>
+            <ul class="menu">
+                <li><a href="#top" class="menu-element" data-link="top">Главная</a></li>
+                <li><a href="#services" class="menu-element" data-link="services">Услуги</a></li>
+                <li><a href="gallery.html" class="menu-element">Галерея</a></li>
+                <li><a href="contacts.html" class="menu-element">Контакты</a></li>
+                <li><a href="blog.html" class="menu-element">Блог</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="top-banner" id="top">
+            <img class="top-image" src="img/glav1.jfif" alt="Обложка">
+        </section>
+        <section class="services" id="services"> 
+            <div class="main-title">Наши услуги</div>
+            <div class="delimiter"></div>
+            <p class="main-title-description">Мы предоставляем лучшие решения для вашего бизнеса.</p>
+            <div class="container-row">
+                <div class="row-item">
+                    <img src="img/uslugi1.png" alt="Услуга 1">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="row-item">
+                    <img src="img/uslugi2.png" alt="Услуга 2">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="row-item">
+                    <img src="img/uslugi3.png" alt="Услуга 3">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="row-item">
+                    <img src="img/uslugi4.png" alt="Услуга 4">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="row-item">
+                    <img src="img/uslugi5.png" alt="Услуга 5">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="row-item">
+                    <img src="img/uslugi6.png" alt="Услуга 6">
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </section>
+        <section class="learn-more overlay black-back">
+            <div class="content">
+                <h2>Подробности</h2>
+                <div class="delimiter"></div>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn">Узнать</a>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio"> 
+            <div class="main-title">Наши работы</div>
+            <div class="delimiter"></div>
+            
+            <div class="portfolio-container">
+                <div class="portfolio-item" data-src="img/port1.jfif" style="background-image: url('img/port1.jfif');">
+                    <div class="description-container">
+                        <div class="portfolio-title">Проект 1</div>
+                        <div class="portfolio-description">Описание проекта</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-src="img/port2.jfif" style="background-image: url('img/port2.jfif');">
+                    <div class="description-container">
+                        <div class="portfolio-title">Проект 2</div>
+                        <div class="portfolio-description">Описание проекта</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-src="img/port3.jfif" style="background-image: url('img/port3.jfif');">
+                    <div class="description-container">
+                        <div class="portfolio-title">Проект 3</div>
+                        <div class="portfolio-description">Описание проекта</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-src="img/port4.jfif" style="background-image: url('img/port4.jfif');">
+                    <div class="description-container">
+                        <div class="portfolio-title">Проект 4</div>
+                        <div class="portfolio-description">Описание проекта</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-src="img/port5.jfif" style="background-image: url('img/port5.jfif');">
+                    <div class="description-container">
+                        <div class="portfolio-title">Проект 5</div>
+                        <div class="portfolio-description">Описание проекта</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-src="img/port6.png" style="background-image: url('img/port6.png');">
+                    <div class="description-container">
+                        <div class="portfolio-title">Проект 6</div>
+                        <div class="portfolio-description">Описание проекта</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="reviews">
+            <div class="main-title">Отзывы</div>
+            <p class="main-title-description">Наши клиенты о нас</p>
+            <div class="delimiter"></div>
+            <div class="testimonials-container">
+                <div class="testimonials-inner">
+                    <div class="testimonial-item">
+                        <div class="review-header">
+                            <img src="img/ava1.jfif" class="review-avatar">
+                            <div class="review-info">
+                                <h4>Angelina Glory</h4>
+                                <span class="review-date">25/02/2026</span>
+                            </div>
+                        </div>
+                        <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="review-header">
+                            <img src="img/ava2.jfif" class="review-avatar">
+                            <div class="review-info">
+                                <h4>Sergey Brin</h4>
+                                <span class="review-date">18/04/2026</span>
+                            </div>
+                        </div>
+                        <p class="review-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="review-header">
+                            <img src="img/ava3.jfif" class="review-avatar">
+                            <div class="review-info">
+                                <h4>Мария Иванова</h4>
+                                <span class="review-date">03/06/2026</span>
+                            </div>
+                        </div>
+                        <p class="review-text">Отличная работа и очень быстрое выполнение. Рекомендую!</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="review-header">
+                            <img src="img/ava4.jfif" class="review-avatar">
+                            <div class="review-info">
+                                <h4>Игорь Серов</h4>
+                                <span class="review-date">11/08/2026</span>
+                            </div>
+                        </div>
+                        <p class="review-text">Всё аккуратно, профессионально и по делу. Буду обращаться снова.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <span class="control-item active"></span>
+                <span class="control-item"></span>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contacts">
+            <div class="main-title">Контактная форма</div>
+            <div class="delimiter"></div>
+            <p class="main-title-description">С нами можно связаться 24/7</p>
+            <div class="contact-form-container">
+                <form action="#" class="contact-form">
+                    <div class="form-row">
+                        <input type="text" class="form-element" placeholder="Ваше имя" required>
+                        <input type="email" class="form-element" placeholder="Email адрес" required>
+                    </div>
+                   
+                    <div class="form-row">
+                        <input type="theme" class="form-element" placeholder="Тема сообщения" required>
+                        <input type="phone" class="form-element" placeholder="Номер телефона" required>
+                    </div>
+
+                    <textarea class="form-element" rows="3" placeholder="Текст сообщения" required></textarea>
+                   
+                    <div class="form-checkbox-container">
+                        <input type="checkbox" id="license" required>
+                        <label for="license">Я согласен с правилами сервиса</label>
+                    </div>
+                    <button type="submit" class="btn form-btn">Отправить сообщение</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <ul class="menu">
+            <li><a href="#top" class="menu-element" data-link="top">Главная</a></li>
+            <li><a href="#services" class="menu-element" data-link="services">Услуги</a></li>
+            <li><a href="#portfolio" class="menu-element" data-link="portfolio">Галерея</a></li>
+            <li><a href="contacts.html" class="menu-element">Контакты</a></li>
+        </ul>
+        <div class="brand">
+            <img src="img/logo1.png" alt="Логотип сайта">
+            <span>AWESOME</span>
+        </div>
+        <div class="social-icons">
+            <a href="#" title="Facebook"><img src="img/facebook.png" alt="FB"></a>
+            <a href="#" title="LinkedIn"><img src="img/linked.png" alt="LI"></a>
+            <a href="#" title="Instagram"><img src="img/inst.png" alt="Insta"></a>
+            <a href="#" title="Twitter"><img src="img/twitter.png" alt="Tw"></a>
+        </div>
+        <div class="copyright">laba 6 - Timoftii</div>
+    </footer>
+</body>
+</html>

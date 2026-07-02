@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог — Физико-технический институт</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav id="myTopnav"> 
+            <div class="logo">
+                <img src="img/logo1.png" alt="Логотип">
+            </div>
+            <div id="hamburger" class="icon">&#9776;</div>
+            <ul class="menu">
+                <li><a href="#top" class="menu-element" data-link="top">Главная</a></li>
+                <li><a href="#services" class="menu-element" data-link="services">Услуги</a></li>
+                <li><a href="#portfolio" class="menu-element" data-link="portfolio">Галерея</a></li>
+                <li><a href="contacts.html" class="menu-element">Контакты</a></li>
+                <li><a href="blog.html" class="menu-element">Блог</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="top" class="blog-hero">
+            <div class="hero-content">
+                <h1>Блог и Новости</h1>
+                <p>Актуальные события, научные публикации</p>
+            </div>
+        </section>
+
+        <div class="blog-container">
+            
+            <article id="blog-posts">
+                </article>
+
+            <aside class="blog-sidebar">
+                <div class="sidebar-block search-box">
+                    <h3>Поиск по блогу</h3>
+                    <div class="search-form">
+                        <input type="text" id="search-input" placeholder="Введите ключевое слово...">
+                        <button id="search-btn">Искать</button>
+                    </div>
+                </div>
+
+                <div class="sidebar-block popular-posts">
+                    <h3>Популярные статьи</h3>
+                    <ul class="popular-list">
+                        <li class="popular-item">
+                            <a href="#">Как поступить в ФТИ в 2026 году: Гайд для абитуриента</a>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#">Новое оборудование в лаборатории квантовой физики</a>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#">Итоги студенческой научной конференции</a>
+                        </li>
+                        <li class="popular-item">
+                            <a href="#">Кафедра информационных технологий празднует юбилей</a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+    <footer>
+        <ul class="menu">
+            <li><a href="#top" class="menu-element" data-link="top">Главная</a></li>
+            <li><a href="#services" class="menu-element" data-link="services">Услуги</a></li>
+            <li><a href="#portfolio" class="menu-element" data-link="portfolio">Галерея</a></li>
+            <li><a href="contacts.html" class="menu-element">Контакты</a></li>
+        </ul>
+        <div class="brand">
+            <img src="img/logo1.png" alt="Логотип сайта">
+            <span>AWESOME</span>
+        </div>
+        <div class="social-icons">
+            <a href="#" title="Facebook"><img src="img/facebook.png" alt="FB"></a>
+            <a href="#" title="LinkedIn"><img src="img/linked.png" alt="LI"></a>
+            <a href="#" title="Instagram"><img src="img/inst.png" alt="Insta"></a>
+            <a href="#" title="Twitter"><img src="img/twitter.png" alt="Tw"></a>
+        </div>
+        <div class="copyright">laba 7 - Timoftii</div>
+    </footer>
+
+    <script src="js/blog.js"></script>
+</body>
+</html>

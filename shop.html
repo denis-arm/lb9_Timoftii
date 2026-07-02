@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин ФТИ</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="myTopnav"> 
+            <div class="logo">
+                <img src="img/logo1.png" alt="Логотип">
+            </div>
+            <div id="hamburger" class="icon">&#9776;</div>
+            <ul class="menu">
+                <li><a href="#top" class="menu-element" data-link="top">Главная</a></li>
+                <li><a href="#services" class="menu-element" data-link="services">Услуги</a></li>
+                <li><a href="gallery.html" class="menu-element">Галерея</a></li>
+                <li><a href="contacts.html" class="menu-element">Контакты</a></li>
+                <li><a href="blog.html" class="menu-element">Блог</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="top-banner py-5 bg-light">
+            <div class="container text-center">
+                <h1 class="display-4">Магазин</h1>
+                <p class="lead text-muted">Карточки товаров</p>
+            </div>
+        </section>
+
+        <section class="container py-5 text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1551860117-7edcfdeb70f8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top product-img" alt="Товар">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Толстовка с логотипом</h5>
+                            <p class="card-text text-muted mb-4">Теплая фирменная худи.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <small class="text-muted">1200 ₽</small>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Купить</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=500&q=80" class="card-img-top product-img" alt="Товар">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Справочник по физике</h5>
+                            <p class="card-text text-muted mb-4">Методическое пособие.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <small class="text-muted">450 ₽</small>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Купить</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1514222709107-a180c68d72b4?w=500&q=80" class="card-img-top product-img" alt="Товар">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Рюкзак</h5>
+                            <p class="card-text text-muted mb-4">Вместительный рюкзак для ноутбука и тетрадей.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <small class="text-muted">2100 ₽</small>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Купить</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80" class="card-img-top product-img" alt="Товар">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Наушники</h5>
+                            <p class="card-text text-muted mb-4">Отличная звукоизоляция.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <small class="text-muted">1500 ₽</small>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Купить</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1581622558667-3419a8dc5f83?w=500&q=80" class="card-img-top product-img" alt="Товар">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Термокружка</h5>
+                            <p class="card-text text-muted mb-4">Сохраняет кофе горячим.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <small class="text-muted">800 ₽</small>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Купить</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=500&q=80" class="card-img-top product-img" alt="Товар">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Сборник задач</h5>
+                            <p class="card-text text-muted mb-4">Задачи по высшей математике и сопромату.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <small class="text-muted">350 ₽</small>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Купить</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1448471237638-f8ccc7d5ac9d?q=80&w=715&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top product-img" alt="Товар">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Набор ручек</h5>
+                            <p class="card-text text-muted mb-4">Комплект капиллярных ручек с гравировкой.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <small class="text-muted">200 ₽</small>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Купить</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?w=500&q=80&utm_source=chatgpt.com" class="card-img-top product-img" alt="Товар">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Блокнот</h5>
+                            <p class="card-text text-muted mb-4">Блокнот формата А5 в клетку.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <small class="text-muted">150 ₽</small>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Купить</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?w=500&q=80" class="card-img-top product-img" alt="Товар">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Значок</h5>
+                            <p class="card-text text-muted mb-4">Памятный металлический значок.</p>
+                            <div class="mt-auto d-flex justify-content-between align-items-center">
+                                <small class="text-muted">300 ₽</small>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Купить</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Подробнее</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="menu">
+            <li><a href="#top" class="menu-element" data-link="top">Главная</a></li>
+            <li><a href="#services" class="menu-element" data-link="services">Услуги</a></li>
+            <li><a href="#portfolio" class="menu-element" data-link="portfolio">Галерея</a></li>
+            <li><a href="contacts.html" class="menu-element">Контакты</a></li>
+        </ul>
+        <div class="brand">
+            <img src="img/logo1.png" alt="Логотип сайта">
+            <span>AWESOME</span>
+        </div>
+        <div class="social-icons">
+            <a href="#" title="Facebook"><img src="img/facebook.png" alt="FB"></a>
+            <a href="#" title="LinkedIn"><img src="img/linked.png" alt="LI"></a>
+            <a href="#" title="Instagram"><img src="img/inst.png" alt="Insta"></a>
+            <a href="#" title="Twitter"><img src="img/twitter.png" alt="Tw"></a>
+        </div>
+        <div class="copyright">laba 6 - Timoftii</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
